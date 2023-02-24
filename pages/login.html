@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/model.css">
+</head>
+<body>
+    <div class="LoginPage">
+    <div id="Topbar">
+        <button id="signinBtn" onclick="signIn()" > <b>SignIn</b> </button>
+    </div>
+        <div class="main-section">
+            <div>
+                <h1>
+                    User Login
+                </h1>
+            </div>
+            
+            <div class="loginform">
+                <form action="" method="get">
+                    <input type="text" id="username" placeholder="User Name "> <br>
+                    <p id="checkuser" style="color: red;"></p>
+
+                    <input type="password" id = "password" placeholder="Password">
+                    <p id="checkpw" style="color: red;"></p>
+                   
+                </form>
+                
+                <button id="logbtn" onclick="fun()"><b>Login</b></button>
+            
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+   
+    
+    
+</body>
+</html>

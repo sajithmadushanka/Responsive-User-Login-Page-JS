@@ -1,0 +1,16 @@
+.parent2{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.userdetaails{
+   padding: 5px;
+}
+#main-img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    border: solid rgb(203, 236, 112);
+}

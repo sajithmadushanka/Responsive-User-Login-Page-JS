@@ -1,0 +1,49 @@
+*{
+    padding: auto;
+    margin: 0;
+    
+}
+#Topbar{
+    padding: 10px;
+    background-color: #eeeeee;
+    text-align: end;
+    display: flexbox;
+    flex-direction: row;
+}
+
+#SignIn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    border: 3px solid rgb(214, 219, 214);
+    background-color: #eeeeee;
+    padding-right:10px;
+
+}
+#signinBtn{
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-size: 1em;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    border-color: rgb(92, 122, 255);
+}
+#signinBtn:hover {background:white;}
+
+h1{
+    padding-bottom: 2%;
+    color: rgb(4, 0, 240);
+}
+.loginform{
+    padding: auto;
+    
+}
+#username{
+    margin: 2%;
+}
+#password{
+    margin: 2%;
+}

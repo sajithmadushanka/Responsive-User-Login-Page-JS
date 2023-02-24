@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/model.css">
+    <link rel="stylesheet" href="../css/User_Adduser.css">
+    <link rel="stylesheet" href="../css/user.css">
+</head>
+<body>
+    <div class="UserPage">
+    
+        <div id="Topbar2">
+            <div class="parent">
+                <img src="https://funkylife.in/wp-content/uploads/2022/09/girl-dp-image-260.jpg" alt="userimage" class="child">
+                <h3 id="childUserName">Guest</h3>
+            </div>
+        </div>
+        <button id="logoutbtn" onclick="logout()">Logout</button>
+        <h1 id="username"> </h1>
+        
+        <div class="main-section" style="margin-top: 0%; padding-bottom: 10px; padding-top: 20px;" >
+           <div class="parent2">
+                        <img src="https://funkylife.in/wp-content/uploads/2022/09/girl-dp-image-260.jpg" alt="userimage" 
+                             id="main-img">
+                        <div class="child2">
+                            <h3 class="userdetaails" id="Uname_">Guest</h3>
+                            <h3 class="userdetaails"><span id="mailname">Guest</span>@gmail.com</h3>
+                        </div>
+           </div>
+            <button id="logbtn" onclick="createUser()" style="margin-top: 10px;">Create User</button>
+        </div>
+    </div>
+    <script src="../js/userpage.js"></script>
+    
+</body>
+</html>
