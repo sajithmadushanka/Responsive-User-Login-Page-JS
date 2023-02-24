@@ -1,4 +1,4 @@
-<h3>HTML CSS and Javescript using login page design - use local js local storage- value only validation in hardcode array. </h3>
+<h3>HTML CSS and Javescript using login page design - used js localstorage- value only validation in hardcode array. </h3>
 <img src="https://i.ibb.co/4jT69dy/Screenshot-2023-02-24-142556.jpg">
 <img src="https://i.ibb.co/VMJYgn1/Screenshot-2023-02-24-142655.jpg" alt="Screenshot-2023-02-24-142655" border="0" />
 <img src="https://i.ibb.co/jMxKHZW/Screenshot-2023-02-24-142725.jpg" alt="Screenshot-2023-02-24-142725" border="0" />
